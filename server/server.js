@@ -30,7 +30,7 @@ let chirps = [
     }
 ];
 
-fs.writeFile(chirpPath, JSON.stringify(chirps), err => {
+fs.writeFile(chirpPath, JSON.stringify(chirps, null, 2), err => {
     if (err) console.log(err);
 });
 
