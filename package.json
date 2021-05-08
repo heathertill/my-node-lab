@@ -9,7 +9,7 @@
   "author": "Heather Till",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }
